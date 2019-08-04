@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Braun Employee Assistant</string>
+    <string name="create_a_new_account">Create a New Account</string>
+    <string name="enter_your_first_name">Enter Your First Name</string>
+    <string name="enter_your_last_name">Enter Your Last Name</string>
+    <string name="enter_your_employee_number">Enter Your Employee Number</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="_8_hours_shift">8-Hours-Shift</string>
+    <string name="_12_hours_shift">12-Hours-Shift</string>
+</resources>
