@@ -1,4 +1,4 @@
-package com.example.braunemployeeassistant;
+package com.example.BEA;
 
 import org.junit.Test;
 

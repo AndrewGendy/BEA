@@ -1,4 +1,4 @@
-package com.example.braunemployeeassistant;
+package com.example.BEA;
 
 import android.content.Context;
 
@@ -22,6 +22,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.example.braunemployeeassistant", appContext.getPackageName());
+        assertEquals("com.example.BEA", appContext.getPackageName());
     }
 }

@@ -1,4 +1,4 @@
-package com.example.braunemployeeassistant;
+package com.example.BEA;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
@@ -11,7 +11,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class MainActivity extends AppCompatActivity {
+public class UserLogin extends AppCompatActivity {
 
 
     TextView tvTempResults, tvTempResults1, tvTempResults2, tvTempResults3;
@@ -29,14 +29,14 @@ public class MainActivity extends AppCompatActivity {
         etEmpPassword = findViewById(R.id.etEmpPassword);
 
 
-        btnCreateAccount = findViewById(R.id.btnCreateAccount);
+        btnCreateAccount = findViewById(R.id.btnADP);
 
 
         btnCreateAccount.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
-                Intent intent = new Intent(MainActivity.this, com.example.braunemployeeassistant.CreateAccount.class);
+                Intent intent = new Intent(UserLogin.this, com.example.BEA.CreateAccount.class);
                 startActivityForResult(intent, CREATE_ACCOUNT);
 
             }
