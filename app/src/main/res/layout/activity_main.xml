@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorPrimary"
+    android:background="@color/white"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -13,7 +13,7 @@
         android:layout_width="391dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="25dp"
         android:fontFamily="@font/abeezee"
         android:gravity="center_horizontal"
         android:text="@string/braun_employee_assistant"
@@ -101,7 +101,7 @@
         android:contentDescription="ISO Train"
         android:fontFamily="@font/abeezee"
         android:gravity="center_horizontal"
-        android:text="Do your training anywhere. even in your KITCHEN!"
+        android:text="Do your training anywhere."
         android:textAllCaps="false"
         android:textColor="@color/colorAccent"
         android:textSize="18sp"
