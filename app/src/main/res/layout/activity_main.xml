@@ -46,7 +46,7 @@
         android:gravity="center_horizontal"
         android:text="@string/check_your_pay_time_off_and_more"
         android:textAllCaps="false"
-        android:textColor="@color/colorAccent"
+        android:textColor="@color/blue"
         android:textSize="18sp"
         android:textStyle="bold" />
 
@@ -58,10 +58,11 @@
         android:layout_marginStart="20dp"
         android:layout_marginTop="5dp"
         android:layout_marginEnd="20dp"
-        android:background="@color/blue"
+        android:background="@color/colorPrimary"
         android:text="@string/on_adp"
         android:textAllCaps="false"
-        android:textSize="18sp"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
         android:textStyle="bold" />
 
     <TextView
@@ -74,7 +75,7 @@
         android:gravity="center_horizontal"
         android:text="Are you Lost?"
         android:textAllCaps="false"
-        android:textColor="@color/colorAccent"
+        android:textColor="@color/blue"
         android:textSize="18sp"
         android:textStyle="bold" />
 
@@ -86,10 +87,11 @@
         android:layout_marginStart="20dp"
         android:layout_marginTop="5dp"
         android:layout_marginEnd="20dp"
-        android:background="@color/blue"
+        android:background="@color/colorPrimary"
         android:text="Get Directions to Work"
         android:textAllCaps="false"
-        android:textSize="18sp"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
         android:textStyle="bold" />
 
     <TextView
@@ -101,9 +103,9 @@
         android:contentDescription="ISO Train"
         android:fontFamily="@font/abeezee"
         android:gravity="center_horizontal"
-        android:text="Do your training anywhere."
+        android:text="Do your training anywhere, anytime."
         android:textAllCaps="false"
-        android:textColor="@color/colorAccent"
+        android:textColor="@color/blue"
         android:textSize="18sp"
         android:textStyle="bold" />
 
@@ -115,10 +117,11 @@
         android:layout_marginStart="20dp"
         android:layout_marginTop="5dp"
         android:layout_marginEnd="20dp"
-        android:background="@color/blue"
+        android:background="@color/colorPrimary"
         android:text="Login to ISO Train"
         android:textAllCaps="false"
-        android:textSize="18sp"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
         android:textStyle="bold" />
 
 </LinearLayout>
