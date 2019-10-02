@@ -1,23 +1,18 @@
 package com.example.BEA;
 
-import androidx.annotation.Nullable;
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.EditText;
 import android.widget.TextView;
-import android.widget.Toast;
 
-import java.net.URL;
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
         TextView tvBEA1,tvBEA2,tvADP;
-        Button btnADP, btnMaps;
+        Button btnADP, btnMaps, btnISOTrain;
 
         @Override
         protected void onCreate(Bundle savedInstanceState) {
@@ -29,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
                 tvADP = findViewById(R.id.tvADP);
                 btnADP = findViewById(R.id.btnADP);
                 btnMaps = findViewById(R.id.btnMaps);
+                btnISOTrain = findViewById(R.id.btnISOTrain);
 
 
                 btnADP.setOnClickListener(new View.OnClickListener() {
@@ -47,6 +43,13 @@ public class MainActivity extends AppCompatActivity {
                         }
                 });
 
+                btnISOTrain.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
+                                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://bbraun.isotrain.com/ISOtrain"));
+                                startActivity(intent);
+                        }
+                });
 
         }
 }
