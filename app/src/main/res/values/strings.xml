@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">BEA</string>
-    <string name="create_a_new_account">Create a New Account</string>
+    <string name="create_a_new_account">Click Here to Create a New Account</string>
     <string name="enter_your_first_name">Enter Your First Name</string>
     <string name="enter_your_last_name">Enter Your Last Name</string>
     <string name="enter_your_employee_number">Enter Your Employee Number</string>
@@ -10,5 +10,12 @@
     <string name="useful_phone_numbers">Useful Phone Numbers</string>
     <string name="braun_employee_assistant">Braun Employee Assistant</string>
     <string name="check_your_pay_time_off_and_more">Check Your Pay, Time-OFF and more!</string>
-    <string name="on_adp">On ADP</string>
+    <string name="click_here_to_open_adp">Click Here to Open ADP</string>
+    <string name="background">Background</string>
+    <string name="get_directions_to_work">Click Here to Get Directions to Work</string>
+    <string name="login_to_iso_train">Click Here to Login to ISO Train</string>
+    <string name="are_you_lost">Are you Lost?</string>
+    <string name="do_your_training_anywhere_anytime">Do your training anywhere, anytime.</string>
+    <string name="i_understand">I Understand</string>
+    <string name="user_acknowledging_the_disclaimer">User Acknowledging The Disclaimer</string>
 </resources>

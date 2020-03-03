@@ -1,127 +1,165 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
-    android:orientation="vertical"
     tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnADP"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:background="@color/colorPrimary"
+        android:text="@string/click_here_to_open_adp"
+        android:textAllCaps="false"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvADP" />
+
+    <Button
+        android:id="@+id/btnMaps"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="20dp"
+        android:background="@color/colorPrimary"
+        android:text="@string/get_directions_to_work"
+        android:textAllCaps="false"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvMaps" />
+
+    <Button
+        android:id="@+id/btnISOTrain"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="20dp"
+        android:background="@color/colorPrimary"
+        android:text="@string/login_to_iso_train"
+        android:textAllCaps="false"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvISOTrain" />
 
     <TextView
         android:id="@+id/tvBEA1"
-        android:layout_width="391dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="25dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="20dp"
         android:fontFamily="@font/abeezee"
         android:gravity="center_horizontal"
         android:text="@string/braun_employee_assistant"
         android:textAllCaps="true"
         android:textColor="@color/colorPrimaryDark"
         android:textSize="25sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/tvBEA2"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="1dp"
+        android:layout_marginTop="5dp"
         android:fontFamily="@font/abeezee"
         android:gravity="center_horizontal"
         android:text="(BEA)"
         android:textAllCaps="true"
         android:textColor="@color/colorPrimaryDark"
         android:textSize="30sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvBEA1" />
 
     <TextView
         android:id="@+id/tvADP"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="100dp"
         android:fontFamily="@font/abeezee"
         android:gravity="center_horizontal"
+        android:shadowColor="#00000000"
+        android:shadowDx="20"
+        android:shadowDy="-20"
+        android:shadowRadius="20"
         android:text="@string/check_your_pay_time_off_and_more"
         android:textAllCaps="false"
         android:textColor="@color/blue"
         android:textSize="18sp"
-        android:textStyle="bold" />
-
-    <Button
-        android:id="@+id/btnADP"
-        android:layout_width="190dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="5dp"
-        android:layout_marginEnd="20dp"
-        android:background="@color/colorPrimary"
-        android:text="@string/on_adp"
-        android:textAllCaps="false"
-        android:textColor="@color/colorAccent"
-        android:textSize="20sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvBEA2" />
 
     <TextView
         android:id="@+id/tvMaps"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
         android:layout_marginTop="50dp"
         android:fontFamily="@font/abeezee"
         android:gravity="center_horizontal"
-        android:text="Are you Lost?"
+        android:text="@string/are_you_lost"
         android:textAllCaps="false"
         android:textColor="@color/blue"
         android:textSize="18sp"
-        android:textStyle="bold" />
-
-    <Button
-        android:id="@+id/btnMaps"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="5dp"
-        android:layout_marginEnd="20dp"
-        android:background="@color/colorPrimary"
-        android:text="Get Directions to Work"
-        android:textAllCaps="false"
-        android:textColor="@color/colorAccent"
-        android:textSize="20sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnADP" />
 
     <TextView
         android:id="@+id/tvISOTrain"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
         android:layout_marginTop="50dp"
         android:contentDescription="ISO Train"
         android:fontFamily="@font/abeezee"
         android:gravity="center_horizontal"
-        android:text="Do your training anywhere, anytime."
+        android:text="@string/do_your_training_anywhere_anytime"
         android:textAllCaps="false"
         android:textColor="@color/blue"
         android:textSize="18sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnMaps" />
 
     <Button
-        android:id="@+id/btnISOTrain"
-        android:layout_width="match_parent"
+        android:id="@+id/btnCalendar"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="124dp"
         android:layout_marginEnd="20dp"
         android:background="@color/colorPrimary"
-        android:text="Login to ISO Train"
+        android:text="Calendar"
         android:textAllCaps="false"
         android:textColor="@color/colorAccent"
         android:textSize="20sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvISOTrain" />
 
-</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

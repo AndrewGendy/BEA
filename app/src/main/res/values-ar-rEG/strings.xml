@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BEA</string>
+    <string name="_12_hours_shift">شيفت12 ساعة</string>
+    <string name="_8_hours_shift">شيفت 8 ساعات</string>
+    <string name="are_you_lost">مش عارف انت فين؟</string>
+    <string name="background">خلفية</string>
+    <string name="braun_employee_assistant">مساعد عمال ب بران</string>
+    <string name="check_your_pay_time_off_and_more">شوف الشيك و ايام الأجازة وأكثر</string>
+    <string name="click_here_to_open_adp">ADP أضغط هنا لتدخل علي</string>
+    <string name="create_a_new_account">حساب جديد</string>
+    <string name="do_your_training_anywhere_anytime">أعمل التدريبات علي أيسو تراين</string>
+    <string name="enter_password">أدخل الباسورد</string>
+    <string name="enter_your_employee_number">أدخل رقم العمال التابع لك</string>
+    <string name="enter_your_first_name">أدخل أسمك الأول</string>
+    <string name="enter_your_last_name">أدخل أسم العائلة</string>
+    <string name="get_directions_to_work">أضغط هنا لفتح الجي بي اس للشغل</string>
+    <string name="i_understand">أنا فاهم</string>
+    <string name="login_to_iso_train">أضغط هنا لتدخل علي أيسو تراين</string>
+    <string name="useful_phone_numbers">أرقام مفيدة</string>
+</resources>
